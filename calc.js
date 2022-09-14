@@ -28,9 +28,22 @@ reader.question("What would you like to calculate?", function(input){
 		console.log(num1 / num2);
 	}
 
-	if (mathSymbol === "Math.sqrt()"){
+	if (mathSymbol === "sqrt"){
 		console.log(Math.sqrt(num1));
 	}
+
+	if (mathSymbol === "cuberoot"){
+		console.log(Math.cbrt(num1));
+	}
+	if (mathSymbol === "rtp"){
+		console.log(num1 ** num2);
+	}
+	if (mathSymbol === "rmd"){
+		console.log(num1 % num2);
+	}
+
+
+
 	// console.log("mathSymbol");
 	// console.log("num1");
 	// console.log("num2");
